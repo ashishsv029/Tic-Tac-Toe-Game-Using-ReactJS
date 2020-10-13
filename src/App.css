@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@400&display=swap');
+
+.main{
+    background-color:#000000;
+}
+
+body{
+    background-color:#000000;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:15px;
+}
+.heading{
+    font-family: 'Piazzolla',serif;
+}
+.box{
+    width:auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 35px;
+    color:white
+}
